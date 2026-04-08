@@ -1,0 +1,14 @@
+## Classes and Object
+Class => BluePoint or template that define fields (attribute) or behavious (methods)
+Object => Instance of the class which is created at runtime using new keywords
+
+What is the difference between a class and an object?
+A class is a compile-time blueprint that defines structure. An object is a runtime entity with its own memory allocated on the heap.
+
+What is the this keyword?
+Refers to the current object instance. Used to distinguish instance variables from local variables with the same name, and to call another constructor from within a constructor (constructor chaining).
+
+What happens when you do Car c = null; c.drive();?
+NullPointerException at runtime — null is not an object, so you cannot invoke methods on it.
+
+## Encapsulation
