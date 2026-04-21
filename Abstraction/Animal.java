@@ -1,4 +1,3 @@
-package Abstraction;
 abstract class Animal{
   String name;
   Animal() {                        // no-arg constructor — allows Dog() default constructor to work
